@@ -49,7 +49,6 @@ Add a comment to a model instance by adding the following to the controller:
  
   commentable = Post.create
   comment = commentable.comments.create
-  comment.title = "First comment."
   comment.comment = "This is the first comment."
   comment.save
 
